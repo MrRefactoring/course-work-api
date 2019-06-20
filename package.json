@@ -1,0 +1,42 @@
+{
+  "name": "adventure-api",
+  "version": "0.0.1",
+  "description": "RESTful API for andventure Tensor project",
+  "author": "Vladislav Tupikin <MrRefactoring@yandex.ru>",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node src/server.js",
+    "develop": "cross-env NODE_ENV=development nodemon server.js",
+    "lint": "eslint ./ --ext .js",
+    "lint-fix": "npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrRefactoring/adventure-api.git"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "=1.0.3",
+    "body-parser": "^1.19.0",
+    "canvas": "^2.4.1",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "face-api.js": "^0.19.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.3",
+    "mongoose": "=5.4.22",
+    "mongoose-unique-validator": "=2.0.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "swagger-spec-express": "^2.0.7",
+    "swagger-ui-express": "^4.0.2"
+  },
+  "engines": {
+    "node": "10.3.0"
+  }
+}
