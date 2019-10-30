@@ -28,7 +28,7 @@
     "face-api.js": "^0.19.0",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.2.3",
-    "mongoose": "=5.4.22",
+    "mongoose": "=5.7.7",
     "mongoose-unique-validator": "=2.0.2",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
